@@ -1,6 +1,15 @@
 {
   "rewrites": [
-    { "source": "/pos-windows", "destination": "/api/pos-windows" },
+    { "source": "/pos-windows", "destination": "/pos-windows.exe" },
     { "source": "/pos-mac",     "destination": "/api/pos-mac" }
+  ],
+  "headers": [
+    {
+      "source": "/pos-windows.exe",
+      "headers": [
+        { "key": "Content-Disposition", "value": "attachment; filename=\"ModoTab POS Setup.exe\"" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    }
   ]
 }
