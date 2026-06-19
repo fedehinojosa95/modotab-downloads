@@ -1,0 +1,10 @@
+{
+  "name": "modotab-downloads",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portal de descargas Modo.Tab — proxy a GitHub Releases del POS Electron",
+  "engines": {
+    "node": "20.x"
+  }
+}
