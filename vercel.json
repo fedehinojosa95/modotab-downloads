@@ -1,0 +1,26 @@
+{
+  "rewrites": [
+    {
+      "source": "/pos-windows",
+      "destination": "https://github.com/fedehinojosa95/pos-app/releases/download/v1.0.0/TODO-Empanadas-POS-Setup-1.0.0.exe"
+    },
+    {
+      "source": "/pos-mac",
+      "destination": "https://github.com/fedehinojosa95/pos-app/releases/download/v1.0.0/TODO-Empanadas-POS-1.0.0.dmg"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/pos-windows",
+      "headers": [
+        { "key": "Content-Disposition", "value": "attachment; filename=\"ModoTab POS Setup.exe\"" }
+      ]
+    },
+    {
+      "source": "/pos-mac",
+      "headers": [
+        { "key": "Content-Disposition", "value": "attachment; filename=\"ModoTab POS.dmg\"" }
+      ]
+    }
+  ]
+}
