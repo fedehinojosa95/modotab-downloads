@@ -1,8 +1,8 @@
-version: 1.0.5
+version: 1.0.7
 files:
-  - url: modotab-pos-1.0.5.exe
-    sha512: B9IkjdYUPwxG9ruMaJ44R42wfKrILOt7hgc7uwNX99W6ksHIkvX69/OL9qShd2PoW222DBDuYa+nD8kxIXVNQA==
-    size: 90592925
-path: modotab-pos-1.0.5.exe
-sha512: B9IkjdYUPwxG9ruMaJ44R42wfKrILOt7hgc7uwNX99W6ksHIkvX69/OL9qShd2PoW222DBDuYa+nD8kxIXVNQA==
-releaseDate: '2026-06-21T01:00:18.496Z'
+  - url: modotab-pos-1.0.7.exe
+    sha512: 75qN2rMs9hKGqClVNwcLB8946SSrDdtomgjQ11AQiG2MjynN9vlAXpNtATUCh82EH1py3pTzLkEZnwqq1qjFew==
+    size: 90594589
+path: modotab-pos-1.0.7.exe
+sha512: 75qN2rMs9hKGqClVNwcLB8946SSrDdtomgjQ11AQiG2MjynN9vlAXpNtATUCh82EH1py3pTzLkEZnwqq1qjFew==
+releaseDate: '2026-06-21T01:14:25.593Z'
