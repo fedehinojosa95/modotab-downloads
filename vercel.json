@@ -1,7 +1,8 @@
 {
   "rewrites": [
     { "source": "/pos-windows", "destination": "/pos-windows.exe" },
-    { "source": "/pos-mac",     "destination": "/api/pos-mac" }
+    { "source": "/pos-mac",     "destination": "/api/pos-mac" },
+    { "source": "/t/:ref", "destination": "https://pos-backend-production-baed.up.railway.app/t/:ref" }
   ],
   "headers": [
     {
