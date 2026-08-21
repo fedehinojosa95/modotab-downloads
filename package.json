@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "description": "Portal de descargas Modo.Tab — proxy a GitHub Releases del POS Electron",
+  "_nota_engines": "Vercel imprime 'Error: Node.js version 20.x is deprecated' con la palabra Error pero NO falla: es un aviso. La fecha si es real — a partir del 2026-10-01 esos deploys dejan de compilar, y este proyecto es el canal por el que las tiendas bajan el POS. Se sube a 24 ANTES de la fecha, no el dia que truene. Riesgo cero: no hay dependencias ni script de build, y la unica funcion (api/pos-mac) corre en el runtime EDGE, no en Node.",
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   }
 }
